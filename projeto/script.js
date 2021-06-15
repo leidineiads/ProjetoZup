@@ -11,6 +11,11 @@ const image2 = document.querySelector('.imagem2');
 const image3 = document.querySelector('.imagem3');
 const image4 = document.querySelector('.imagem4');
 
+let nomeDoPersonagem1;
+let nomeDoPersonagem2;
+let nomeDoPersonagem3;
+let nomeDoPersonagem4;
+
 generateRandomNumber = () => {
     return Math.floor(Math.random() * numeroMaximoDePersonagens);
 }
