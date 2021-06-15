@@ -16,6 +16,8 @@ getCharacter = () => {
         }
     }).then((response) => response.json()).then((data) => {
         image1.src = data.image;
+        nomeDoPersonagem1 = data.name;
+        nome1.innerHTML = `Personagem: ${nomeDoPersonagem1.toUpperCase()}`
     })
 }
 
