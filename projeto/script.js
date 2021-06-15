@@ -1,6 +1,12 @@
+const numeroMaximoDePersonagens = 671;
+
+generateRandomNumber = () => {
+    return Math.floor(Math.random() * numeroMaximoDePersonagens);
+}
+
 getCharacter = () => {
-    
-    return fetch(`https://rickandmortyapi.com/api/character/1`, {
+const id = generateRandomNumber();
+    return fetch(`https://rickandmortyapi.com/api/character/${id}`, {
         method: 'GET',
         headers: {
             Accept: 'application/json',
@@ -12,3 +18,5 @@ getCharacter = () => {
 }
 
 this.getCharacter();
+
+
