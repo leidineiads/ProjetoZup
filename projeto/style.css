@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px , #00FFFF 0%, rgba(0, 0, 255, 0) 50%, #0000FF 95%);
+}
+
+header {
+    font-family:font-variant-ligatures none;
+    background-color: rgba(71, 69, 180, 0.541);
+    padding:20px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.informacao{
+    color: rgb(10, 5, 5);
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+
+}
+main {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content:center;
+    position:relative;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    
+}
+
+main > section{ 
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.card{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 8px 32px 0 rgba(8, 8, 10, 0.37);
+    border-radius: 15px 0px 0px 15px;
+    border-bottom:rgb(15, 10, 7);
+    border: 1px solid rgba(20, 5, 5, 0.534);
+    background-color:rgb(59, 55, 55)
+    
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 0 8px 32px 0 rgba(8, 8, 10, 0.37);
+    border-bottom:rgb(15, 10, 7);
+    border: 1px solid rgba(20, 5, 5, 0.534);
+   
+}
+
+main > section p{
+    color: rgb(57, 111, 116);
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+ }
+ 
+footer{
+    background-color: rgba(71, 69, 180, 0.541);
+    margin: 0;
+    padding: 40px;
+    font-size: 18px;
+    text-align:center;
+    color: #e0e6e7;
+    
+}
